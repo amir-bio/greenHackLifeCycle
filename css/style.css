@@ -17,6 +17,16 @@
     font-size: 3em;
 }
 
+#main-table {
+    margin-top: 100px;
+    font-size: 1.2em;
+}
+
+#main-table tr td:first-child {
+    font-weight: bold;
+    padding-left: 15px;
+}
+
 body {
     background-color: #c5eff7;
 }
