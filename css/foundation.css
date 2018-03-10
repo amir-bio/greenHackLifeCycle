@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /**
  * Foundation for Sites by ZURB
  * Version 6.4.2
@@ -5803,3 +5803,5 @@ a.thumbnail {
 
 .long-delay {
   animation-delay: 700ms !important; }
+
+

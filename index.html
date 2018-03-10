@@ -1,35 +1,46 @@
 <!doctype html>
+
+
+
+
+
 <html class="no-js" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Lifetime</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
+    <div class = "top-bar black-top-bar">
+      <div class="top-bar-left">
+        <ul class = "dropdown menu black-top-bar" data-dropdown-menu>
+          <img src="recycle.png" id="recycle-icon"><h1 id="site-name">LifeTracker</h1>
+          </ul></div></div>
 
-          <nav>
-            <h1> Lifetime recycler</h1>
-
-
-          </nav>
-        </div>
-      </div>
 
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
+          <center>
           
+            
+          
+          <div class="row">
+            <div class="large-12 large-centered columns" >
 
-          Take a picture or uplaod a photo:
-          <input type="file" name="image" accept="image/*" capture="environment">
+                <img src="camera.png" id="camera-icon" /></div>
+                <label id="bb">Take pic<input id="filechooser" type="file" class="file" name="image" accept="image/*" capture="environment" />
+                  <br><div id="smaller-upload">(or upload one)</div>
+                </label>
+                
+            </div>
+
+        </center>
         </div>
       </div>
-
         </div>
       </div>
     </div>

@@ -1,0 +1,49 @@
+#filechooser {
+    width: 100px;
+}
+
+#camera-icon {
+    width: 150px;
+}
+
+#recycle-icon {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+#site-name {
+    color: #fff;
+    font-size: 3em;
+}
+
+body {
+    background-color: #c5eff7;
+}
+
+.black-top-bar {
+    background-color: #012d42!important;
+}
+
+#bb {
+    
+    background-color: #59ABE3;
+    color: #fff;
+    width: 200px;
+    font-size: 2em;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    /*box-shadow: -1px 1px 0 #2c3e50, -2px 2px 0 #2c3e50, -3px 3px 0 #2c3e50, -4px 4px 0 #2c3e50, -5px 5px 0 #2c3e50, -6px 6px 0 #2c3e50, -7px 7px 0 #2c3e50, -8px 8px 0 #2c3e50, -9px 9px 0 #2c3e50, -10px 10px 0 #2c3e50;
+*/
+}
+
+#smaller-upload {
+    font-size: 0.5em;
+    margin-top: -10px;
+
+}
+
+input[type="file"] {
+    display: none;
+}
